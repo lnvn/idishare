@@ -1,0 +1,4 @@
+baseURL: 'https://idishare.org/'
+languageCode: 'en-us'
+title: 'My New Hugo Site'
+theme: 'PaperMod'
