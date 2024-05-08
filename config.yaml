@@ -1,18 +1,7 @@
 baseURL: 'https://idishare.org/'
 languageCode: 'en-us'
-title: 'My New Hugo Site'
+title: 'I do I share'
 theme: 'PaperMod'
-
-server:
-  headers:
-  - for: /**
-    values:
-      # Content-Security-Policy: script-src pikalong.net # if enable => can not switch between dark mode
-      Strict-Transport-Security: max-age=31536000; includeSubDomains
-      Referrer-Policy: strict-origin-when-cross-origin
-      X-Content-Type-Options: nosniff
-      X-Frame-Options: SAMEORIGIN
-      X-XSS-Protection: 1; mode=block
 
 menu:
   main:
