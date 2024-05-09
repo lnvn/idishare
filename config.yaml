@@ -8,3 +8,15 @@ menu:
     - identifier: About
       name: About
       url: /about/
+    - identifier: Search
+      name: Search
+      url: /search/
+      
+      # pre: "<img src='/img/about-japan.jpg'>"
+
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
