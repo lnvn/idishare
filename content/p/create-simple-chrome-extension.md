@@ -114,3 +114,5 @@ The extension should now appear in your list, and the specified sites should be 
 
 ### 4. Reference
 - https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world
+
+TBD: add enable/disable button, design extension popup
