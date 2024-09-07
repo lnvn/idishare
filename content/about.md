@@ -28,7 +28,7 @@ I’m a DevOps Engineer with nearly 4 years of experience in cloud infrastructur
 
 #### NTT Data VDS
 
-##### August 2021 - January 2024
+##### April 2021 - January 2024
 
 - Work with colleague in Europe to build, manage and maintain microservice infrastructure in AWS
 
@@ -42,7 +42,7 @@ I’m a DevOps Engineer with nearly 4 years of experience in cloud infrastructur
 
 #### Kdata
 
-##### October 2020 - February 2021
+##### October 2020 - April 2021
 
 - get acquainted with Linux Server
 
