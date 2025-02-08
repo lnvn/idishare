@@ -9,10 +9,10 @@ menu:
       name: Home
       url: /post/
       weight: 10
-    - identifier: Blog
-      name: Blog
-      url: /blog/
-      weight: 20
+    # - identifier: Blog
+    #   name: Blog
+    #   url: /blog/
+    #   weight: 20
     - identifier: About
       name: About
       url: /about/
