@@ -10,6 +10,11 @@ $ git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git
 $ git submodule update --init --recursive
 ```
 
+### Update submodules
+```
+$ git submodule update --remote --merge
+```
+
 ### Hugo framework command
 #### 1. Create new site
 ```
