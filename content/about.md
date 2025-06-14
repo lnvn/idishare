@@ -8,7 +8,7 @@ draft = false
 
 I’m a DevOps Engineer with nearly 4 years of experience in cloud infrastructure and automation, specializing in AWS, Kubernetes, Docker, and Terraform. Experienced in maintaining logging and monitoring systems (EFK, Prometheus), building CI/CD pipelines with GitLab CI/CD and ArgoCD. Seeking to apply my skills to drive efficient and secure infrastructure in a dynamic environment.
 
-![targets](/img/devopsmeme.jpg)
+![targets](/img/profile/computer.gif)
 
 ## Work Experience
 

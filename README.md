@@ -35,3 +35,8 @@ $ hugo server --config config.yaml
 ```
 hugo --config config.yaml
 ```
+
+### Thanks to
+```
+https://app.lottiefiles.com/
+```
