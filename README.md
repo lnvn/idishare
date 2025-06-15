@@ -40,3 +40,8 @@ hugo --config config.yaml
 ```
 https://app.lottiefiles.com/
 ```
+
+### README configuration
+```
+**my link**: [link](https://link.com)
+```
