@@ -1,7 +1,7 @@
 +++
 title = 'Customize Terminal'
 summary = 'My personal project to setup and customize terminal using zsh, oh-my-zsh, ...'
-date = 2024-09-02T21:07:55+07:00
+date = 2025-04-10T21:07:55+07:00
 draft = false
 +++
 

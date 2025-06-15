@@ -1,6 +1,6 @@
 baseURL: 'https://idishare.org/'
 languageCode: 'en-us'
-title: 'I do I share'
+title: 'PikaLong'
 theme: 'PaperMod'
 
 menu:
@@ -21,9 +21,6 @@ menu:
       name: Search
       url: /search/
       weight: 40
-      
-      # pre: "<img src='/img/about-japan.jpg'>"
-
 
 outputs:
   home:

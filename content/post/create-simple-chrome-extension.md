@@ -1,7 +1,7 @@
 +++
 title = 'Create Simple Chrome Extension'
 summary = 'Describe how to build a simple chrome extension to block access to facebook, youtube, instagram, ...'
-date = 2024-08-04T19:48:25+07:00
+date = 2025-05-04T19:48:25+07:00
 draft = false
 +++
 
