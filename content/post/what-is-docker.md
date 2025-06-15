@@ -1,13 +1,17 @@
-+++
-title = 'The Docker Revolution'
-summary = 'What is Docker, and why is it widely used nowadays?'
-date = 2025-06-01T21:07:55+07:00
-draft = false
-+++
+---
+title: 'The Container Revolution'
+summary: 'What is Container, and why is it widely used nowadays?'
+date: 2025-06-01T21:07:55+07:00
+draft: false
+# cover:
+#     image: "img/tech/docker-picture.png"
+#     caption: "test" # display caption under cover
+#     relative: true # when using page bundles set this to true
+---
 
 - [I. Overview](#i-overview)
 - [II. Getting Started](#ii-getting-started)
-  - [The Docker revolution](#the-docker-revolution)
+  - [The Container revolution](#the-container-revolution)
     - [Physical Server](#physical-server)
     - [Virtual Server](#virtual-server)
     - [Container](#container)
@@ -19,7 +23,7 @@ In this post, I will sumarize the defintion of docker and the revolution of dock
 
 ![targets](/img/tech/docker-revolution.png)
 
-### The Docker revolution
+### The Container revolution
 #### Physical Server
 Application are the  powerhouse of every modern business, then when application break, business break.
 

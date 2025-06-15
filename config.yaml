@@ -2,6 +2,8 @@ baseURL: 'https://idishare.org/'
 languageCode: 'en-us'
 title: 'PikaLong'
 theme: 'PaperMod'
+pagination:
+  pagerSize: 5
 
 menu:
   main:
@@ -27,3 +29,24 @@ outputs:
     - HTML
     - RSS
     - JSON # necessary for search
+
+params:
+  defaultTheme: dark
+  ShowReadingTime: true
+  ShowWordCount: true
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: Welcome to my blog
+  socialIcons:
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/pikalong/"
+    - name: "github"
+      url: "https://github.com/lnvn"
+
+  # assets:
+  #   # disableHLJS: true # to disable highlight.js
+  #   # disableFingerprinting: true
+  #   favicon: "<link / abs url>"
+  #   favicon16x16: "<link / abs url>"
+  #   favicon32x32: "<link / abs url>"
+
