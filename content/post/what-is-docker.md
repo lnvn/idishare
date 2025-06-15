@@ -1,7 +1,7 @@
 +++
 title = 'The Docker Revolution'
 summary = 'What is Docker, and why is it widely used nowadays?'
-date = 2025-06-14T21:07:55+07:00
+date = 2025-06-01T21:07:55+07:00
 draft = false
 +++
 
