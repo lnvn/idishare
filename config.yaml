@@ -36,7 +36,7 @@ params:
   ShowWordCount: true
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Content: "Hi there! I'm Long, a DevOps/Cloud Engineer. I created this website to share practical knowledge and experiences from my journey in the IT industry. Whether you're a professional or just curious about DevOps and cloud computing, I hope you find something useful here."
   socialIcons:
     - name: "linkedin"
       url: "https://www.linkedin.com/in/pikalong/"
