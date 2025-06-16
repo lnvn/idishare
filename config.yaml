@@ -11,17 +11,17 @@ menu:
       name: Home
       url: /post/
       weight: 10
-    # - identifier: Blog
-    #   name: Blog
-    #   url: /blog/
-    #   weight: 20
     - identifier: About
       name: About
       url: /about/
-      weight: 30
+      weight: 20
     - identifier: Search
       name: Search
       url: /search/
+      weight: 30
+    - identifier: Projects
+      name: Projects
+      url: /projects/
       weight: 40
 
 outputs:
