@@ -8,6 +8,7 @@ draft = false
 - [I. Overview](#i-overview)
 - [II. Getting Started](#ii-getting-started)
   - [1. Big Bang Deployment](#1-big-bang-deployment)
+  - [2. Rolling Deployment](#2-rolling-deployment)
 
 ## I. Overview
 Deployment Strategy
@@ -50,3 +51,6 @@ Cons: High risk, Downtime, Limited Roll Back Option, No Gradual Feedback
 - New version is fully tested, and there is confidence in its stability
 - Small system with fewer dependency
 - Or maybe the cost and complexity of a phased rollout is prohibitive
+
+### 2. Rolling Deployment
+![targets](/img/tech/rolling-deployment.png)
