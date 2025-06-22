@@ -9,6 +9,7 @@ draft = false
 - [II. Getting Started](#ii-getting-started)
   - [1. Big Bang Deployment](#1-big-bang-deployment)
   - [2. Rolling Deployment](#2-rolling-deployment)
+  - [3. Blue Green Deployment](#3-blue-green-deployment)
 
 ## I. Overview
 Deployment Strategy
@@ -82,3 +83,6 @@ Top 5 most-used deployment strategies
    - The system does not have sufficient resources to deploy two full environments
    - The old and new versions can coexist without causing conflicts (e.g., API or data schema compatibility)
    - Works well with containerized and microservices-based applications in environments like Kubernetes, ECS, or similar orchestration platforms
+
+### 3. Blue Green Deployment
+![targets](/img/tech/blue-green-deployment.png)
