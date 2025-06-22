@@ -39,6 +39,7 @@ hugo --config config.yaml
 ### Thanks to
 ```
 https://app.lottiefiles.com/
+https://wall.alphacoders.com/ (for mario picture)
 ```
 
 ### README configuration
