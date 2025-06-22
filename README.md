@@ -1,9 +1,3 @@
-+++
-searchHidden = true
-+++
-
-searchHidden will hide your post from search result
-
 ### Prerequisite when clone to new folder
 ```
 $ git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
@@ -45,4 +39,5 @@ https://wall.alphacoders.com/ (for mario picture)
 ### README configuration
 ```
 **my link**: [link](https://link.com)
+searchHidden = true # hide post from search result
 ```
