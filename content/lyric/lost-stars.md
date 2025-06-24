@@ -1,6 +1,7 @@
 +++
 title = 'Lost Stars'
 date = 2025-06-24T15:49:40+07:00
+summary = 'Lost Stars lyrics'
 draft = false
 +++
 ```
