@@ -19,9 +19,9 @@ menu:
       name: Search
       url: /search/
       weight: 30
-    - identifier: Projects
-      name: Projects
-      url: /projects/
+    - identifier: Lyrics
+      name: Lyrics
+      url: /lyric/
       weight: 40
 
 outputs:

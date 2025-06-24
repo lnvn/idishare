@@ -119,3 +119,41 @@ Top 5 most-used deployment strategies
    - Works well with immutable infrastructure where environments can be easily created and destroyed.
 
 ### 4. Canary Deployment
+![targets](/img/tech/canary-deployment.png)
+
+**Fun Fact:**
+   - The name "canary deployment" comes from the old mining practice of using a "canary in a coal mine"
+   - Miners would bring a caged canary down into the mines with them. Canaries are much more sensitive to toxic gases (like carbon monoxide) than humans. If the canary showed signs of distress or died, it was an early warning for the miners to evacuate immediately before they were affected
+
+![targets](/img/tech/canary-in-the-coal-mine.jpg)
+
+**Definition:** Canary deployment is a strategy where a new version of an application is gradually rolled out to a small subset of users or servers before making it available to the entire user base. This small group acts as a "canary in a coal mine," allowing teams to test the new version in a real production environment with minimal impact. If the new version performs as expected, the rollout is progressively expanded.
+
+**Process:**
+
+1. Pre-Deployment
+   - Build and test the new version in a staging environment
+   - Define the initial user subset (the "canary" group) and key performance metrics for success (e.g., error rate, latency, resource utilization)
+   - Prepare the production environment to run both the old and new versions side-by-side
+
+2. Deployment
+   - Route a small percentage of live user traffic (e.g., 5%) to the new version (the canary). The rest of the traffic continues to go to the stable, old version
+   - Closely monitor the canary group against the predefined metrics. Compare its performance to the stable version
+   - If the canary is healthy, gradually increase the percentage of traffic routed to the new version. If issues arise, immediately roll back by directing all traffic back to the old version
+
+3. Post-Deployment
+   - Once 100% of the traffic is successfully routed to the new version, the old version instances can be decommissioned
+   - Continue monitoring the system to ensure long-term stability
+
+**Pros and Cons:**
+
+   - Pros: Safest Deployment (minimal blast radius), Real-World Testing, Zero Downtime
+   - Cons: Highest Complexity, Requires Advanced Monitoring, Slower Rollout
+
+**When to use?**
+
+   - The release contains high-risk or experimental features that need validation with real user traffic
+   - You want to gather performance data and user feedback before committing to a full rollout
+   - The system has robust monitoring, feature flagging, and traffic-shaping capabilities
+   - You want to perform A/B testing by directing different user segments to different versions
+   - Suitable for large-scale applications where even a small percentage of traffic provides a statistically significant sample for testing
