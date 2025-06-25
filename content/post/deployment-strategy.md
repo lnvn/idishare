@@ -11,6 +11,7 @@ draft = false
   - [2. Rolling Deployment](#2-rolling-deployment)
   - [3. Blue Green Deployment](#3-blue-green-deployment)
   - [4. Canary Deployment](#4-canary-deployment)
+  - [5. Feature Toggle](#5-feature-toggle)
 
 ## I. Overview
 Deployment Strategy
@@ -157,3 +158,37 @@ Top 5 most-used deployment strategies
    - The system has robust monitoring, feature flagging, and traffic-shaping capabilities
    - You want to perform A/B testing by directing different user segments to different versions
    - Suitable for large-scale applications where even a small percentage of traffic provides a statistically significant sample for testing
+
+### 5. Feature Toggle
+![targets](/img/tech/feature-toggle.png)
+
+**Definition:** A feature toggle is a software development technique that allows teams to turn specific functionality on or off during runtime without deploying new code. It works by wrapping new features in a conditional block (a toggle or flag) within the code, which can be controlled remotely. This decouples feature releases from code deployments.
+
+**Process:**
+
+1. Pre-Deployment
+   - A new feature is developed and encapsulated within a conditional if/else block controlled by a feature flag
+   - By default, the flag is set to "off," meaning the new code path is not executed
+   - The code, including the new inactive feature, is merged and deployed to the production environment
+
+2. Deployment
+   - The feature is enabled by turning the flag "on" via a configuration dashboard or an API call. This does not require a new code deployment
+   - The release can be targeted: first to internal teams, then to a small percentage of users (e.g., a beta group), and finally to everyone
+   - The performance and user reception of the new feature are monitored in real-time.
+
+3. Post-Deployment
+   - If the feature is stable and successful, the flag is permanently turned on for all users. Over time, the toggle and the old code path are removed from the codebase to reduce technical debt
+   - If the feature causes issues, the flag is instantly turned "off," immediately disabling the functionality for all users without needing a code rollback or a new deployment
+
+**Pros and Cons:**
+
+   - Pros: Decouple Deployment from Release, Instant Kill Switch, Targeted Rollouts, Enables Trunk-Based Development
+   - Cons: Increased Code Complexity, Technical Debt (flags must be managed and removed), Requires a Management System
+
+**When to use?**
+
+   - You want to deploy new code to production frequently but control the timing of when users see new features
+   - You need to test features in a live production environment with a specific group of users (e.g., internal staff, beta testers) before a full release
+   - You require an emergency "kill switch" to instantly disable a feature if it causes critical problems
+   - Your team practices trunk-based development and wants to avoid long-lived, complex feature branches
+   - You want to manage access to certain features based on user segments, subscription tiers, or regions
