@@ -41,7 +41,9 @@ The primary goal is to decouple cross-cutting concerns from the main application
 
 ---
 **Pros and Cons**
+
 Pros: Language Independence, Reduces Complexity in Application Code, Reusability, Encapsulation
+
 Cons: Increased Complexity in Deployment, Resource Overhead, Potential for Latency
 
 **Summary:** The Sidecar pattern is about separating concerns. While it's an almost essential tool for managing the distributed complexity of a microservices architecture, its principle of decoupling is useful anytime you want to add functionality to an application without modifying its core code.
