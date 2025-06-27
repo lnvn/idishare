@@ -9,7 +9,7 @@ draft: false
 - [II. Getting Started](#ii-getting-started)
 
 ## I. Overview
-In this post, 
+This post describe the sidecar pattern and some use case of it
 
 ## II. Getting Started
 
