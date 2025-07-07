@@ -50,12 +50,7 @@ There is a distinction between a role and individually indentified people:
 - Those who are kept up-to-date on progress, often only on completion of the task or deliverable, and with whom there is just one-way communication.
 - **Summary**: Individuals who need to be kept updated on progress or decisions.
 
-|        | Person A | Person B | Person C |  Person D |
-|:------:|:--------:|:--------:|:--------:|:---------:|
-| Task 1 |    R     |          |          |           |
-| Task 2 |          |    A     |          |           |
-| Task 3 |          |          |    C     |           |
-| Task 4 |          |          |          |     I     |
+![targets](/img/tech/raci-table.png)
 
 #### Pros And Cons
 RACI provides a clear view of who executes a task, who approves it, who gives input, and who is kept in the loop.
