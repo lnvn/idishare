@@ -32,16 +32,20 @@ There is a distinction between a role and individually indentified people:
 **R** = Responsible (also recommender)
 
 - Those who complete the task. There is at least one role with a participation type of responsible, although others can be delegated to assist in the work required.
+- **Summary**: The person who performs the work.
 
 **A** = Accountable (also approver or final approving authority)
 
 - The one ultimately answerable for the correct and thorough completion of the deliverable or task, the one who ensures the prerequisites of the task are met and who delegates the work to those responsible. In other words, an accountable must sign off (approve) work that responsible provides. There must be only one accountable specified for each task or deliverable.
+- **Summary**: The person ultimately answerable for the task's completion and outcome.
 
 **C** = Consulted (sometime consultant or counsel)
 
 - Those whose opinions are sought, typically subject-matter experts, and with whom there is two-way communication.
+- **Summary**: Individuals whose input is required before the work is done.
 
 **I** = Informed (also informee)
 
 - Those who are kept up-to-date on progress, often only on completion of the task or deliverable, and with whom there is just one-way communication.
+- **Summary**: Individuals who need to be kept updated on progress or decisions.
 
