@@ -9,6 +9,7 @@ draft = false
 - [II. Getting Started](#ii-getting-started)
   - [Key Responsibility Roles in The RACI Model](#key-responsibility-roles-in-the-raci-model)
     - [Role Distinction](#role-distinction)
+    - [Pros And Cons](#pros-and-cons)
 
 ## I. Overview
 What is Responsibility assignment matrix and how it works.
@@ -49,3 +50,24 @@ There is a distinction between a role and individually indentified people:
 - Those who are kept up-to-date on progress, often only on completion of the task or deliverable, and with whom there is just one-way communication.
 - **Summary**: Individuals who need to be kept updated on progress or decisions.
 
+|        | Person A | Person B | Person C |  Person D |
+|:------:|:--------:|:--------:|:--------:|:---------:|
+| Task 1 |    R     |          |          |           |
+| Task 2 |          |    A     |          |           |
+| Task 3 |          |          |    C     |           |
+| Task 4 |          |          |          |     I     |
+
+#### Pros And Cons
+RACI provides a clear view of who executes a task, who approves it, who gives input, and show is kept in the loop.
+
+**Pros:**
+
+- Simple and easy to apply across teams
+- Clarifies ownership and communication lines
+- Suitable for recurring process or structured tasks
+
+**Cons:**
+
+- Does not explicitly define supporting contributors
+- Not designed for decision-driven environments (i.e., no clear "decision owner")
+- Can create confusion in agile teams where roles shift frequently
