@@ -58,7 +58,7 @@ There is a distinction between a role and individually indentified people:
 | Task 4 |          |          |          |     I     |
 
 #### Pros And Cons
-RACI provides a clear view of who executes a task, who approves it, who gives input, and show is kept in the loop.
+RACI provides a clear view of who executes a task, who approves it, who gives input, and who is kept in the loop.
 
 **Pros:**
 
