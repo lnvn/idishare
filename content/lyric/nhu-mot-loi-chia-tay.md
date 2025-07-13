@@ -1,6 +1,6 @@
 +++
 title = 'Nhu Mot Loi Chia Tay'
-summary 'Nhu Mot Loi Chia Tay lyrics'
+summary = 'Nhu Mot Loi Chia Tay lyrics'
 date = 2025-07-13T16:05:35+07:00
 draft = false
 +++
@@ -38,4 +38,5 @@ Tiếng thì thầm từng đêm nhớ lại
 Ngỡ chỉ là cơn say
 Đoá hoa vàng mỏng manh cuối trời
 Như một lời chia tay
+
 ```
