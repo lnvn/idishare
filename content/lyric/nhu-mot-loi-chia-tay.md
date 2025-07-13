@@ -2,7 +2,7 @@
 title = 'Nhu Mot Loi Chia Tay'
 summary 'Nhu Mot Loi Chia Tay lyrics'
 date = 2025-07-13T16:05:35+07:00
-draft = true
+draft = false
 +++
 
 ```
