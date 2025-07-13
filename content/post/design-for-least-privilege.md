@@ -9,6 +9,7 @@ draft = false
 - [II. Getting Started](#ii-getting-started)
   - [Least Privilege](#least-privilege)
   - [Zero Trust Networking](#zero-trust-networking)
+  - [Zero Touch](#zero-touch)
 - [Reference](#reference)
 
 ## I. Overview
@@ -25,6 +26,10 @@ The model can by applied to applications, systems or connected devices that requ
 
 ### Zero Trust Networking
 The notion that a user's network location (begin within the company's network) doesn't grant any privileged access. For example, plugging into a network port in a conference room does not grant more access than connecting from elsewhere on the internet. Instead, a system grants access based on a combination of user credentials and device credentials - what we know about the user and what we know about the device 
+
+### Zero Touch
+The SRE organization at Google is working to build upon the concept of least privilege through automation, with the goal of moving to what they call *Zero Touch* interfaces. The specific goal of these interface - like Zero Touch Protocol and Zero Touch Networking - is to make Google safer and reduce outages by removing direct human access to production roles. Instead, human have indirect access to production through tooling and automation that make predictable and controlled changes to production infrastructure. This approach requires extensive automation, new save APIs and resilient multi-party approval systems.
+
 
 ## Reference
 - [Building Secure and Reliable Systems](https://google.github.io/building-secure-and-reliable-systems/raw/ch05.html)
