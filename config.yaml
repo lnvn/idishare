@@ -21,7 +21,7 @@ menu:
       weight: 30
     - identifier: Book
       name: Book
-      url: /book/
+      url: /book/book/
       weight: 40
     # - identifier: Lyrics
     #   name: Lyrics
