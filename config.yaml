@@ -15,13 +15,13 @@ menu:
       name: About
       url: /about/
       weight: 20
-    - identifier: Search
-      name: Search
-      url: /search/
-      weight: 30
     - identifier: Book
       name: Book
       url: /book/book/
+      weight: 30
+    - identifier: Search
+      name: Search
+      url: /search/
       weight: 40
     # - identifier: Lyrics
     #   name: Lyrics
