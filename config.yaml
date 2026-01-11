@@ -23,10 +23,10 @@ menu:
       name: Book
       url: /book/
       weight: 40
-    - identifier: Lyrics
-      name: Lyrics
-      url: /lyric/
-      weight: 50
+    # - identifier: Lyrics
+    #   name: Lyrics
+    #   url: /lyric/
+    #   weight: 50
 
 outputs:
   home:
