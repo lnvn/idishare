@@ -1,6 +1,6 @@
 baseURL: 'https://sysreboot.org/'
 languageCode: 'en-us'
-title: 'PikaLong'
+title: 'System Reboot Engineer'
 theme: 'PaperMod'
 pagination:
   pagerSize: 5
