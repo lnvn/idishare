@@ -1,6 +1,6 @@
 +++
 title = 'RACI Model'
-date = 2025-07-07T13:57:43+07:00
+date = 2025-09-07T13:57:43+07:00
 summary = "RACI Model"
 draft = false
 +++

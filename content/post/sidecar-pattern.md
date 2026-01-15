@@ -1,7 +1,7 @@
 ---
 title: 'Sidecar Pattern'
 summary: 'What is Sidecar pattern, and what is it using for?'
-date: 2025-06-26T20:00:31+07:00
+date: 2025-11-26T20:00:31+07:00
 draft: false
 ---
 

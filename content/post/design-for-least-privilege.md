@@ -1,7 +1,7 @@
 +++
 title = 'Design for Least Privilege'
 summary = 'Principle of least privilege'
-date = 2025-07-10T11:02:06+07:00
+date = 2025-11-10T11:02:06+07:00
 draft = false
 +++
 
