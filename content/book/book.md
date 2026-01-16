@@ -10,3 +10,5 @@ draft: false
 [Google SRE](https://sre.google/books/)
 
 [The Kubernetes Book](/pdf/the-kubernetes-book.pdf)
+
+[Three Man In A Boat](/pdf/three-man-in-a-boat.pdf)
