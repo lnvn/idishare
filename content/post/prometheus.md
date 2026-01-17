@@ -10,6 +10,7 @@ draft = false
   - [1. Concept](#1-concept)
     - [a. Data Model](#a-data-model)
     - [b. Metric Types](#b-metric-types)
+    - [c. Jobs and Instances](#c-jobs-and-instances)
   - [2. Feature](#2-feature)
   - [3. Characteristics](#3-characteristics)
 - [III. Architecture](#iii-architecture)
@@ -58,6 +59,23 @@ Do not use counter to expose a value that can decrease. (E.g. Currently running 
 A gauge is a metric that represents a single numerical value that can arbitrarily go up and down.
 
 Gauges are typically used for measured values like temperatures or current memory usage, number of concurrent request.
+
+#### c. Jobs and Instances
+An instance is an endpoint which you can scrape metrics. it is identified by its ``` <host>:<port> ```
+
+A jobs is a collection of instances with the same purpose, E.g. a group of identical webserver
+
+For example:
+```
+scrape_configs:
+  # This is the "Job"
+  - job_name: 'api-servers'
+    static_configs:
+      - targets:
+        - '192.168.1.10:8080'  # Instance 1
+        - '192.168.1.11:8080'  # Instance 2
+        - '192.168.1.12:8080'  # Instance 3
+```
 
 
 ### 2. Feature
