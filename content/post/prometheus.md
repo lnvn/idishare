@@ -77,6 +77,9 @@ scrape_configs:
         - '192.168.1.12:8080'  # Instance 3
 ```
 
+When prometheus scrapes a target, it attaches some labels automatically to the scraped time series which serve => to identify the scraped target:
+- job: is the configured job name that the target belongs to.
+- instance: the ```<host>:<port>``` of the target URL that was scraped
 
 ### 2. Feature
 - multi-dimensional data model with time series data
